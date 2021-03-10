@@ -1,12 +1,11 @@
 import './App.css';
-import Button from '@material-ui/core/Button'
 import NewsCenter from './Components/NewsCenter/NewsCenter';
+import AppHeader from './Components/AppHeader/AppHeader';
 
 function App() {
   return (
     <div className="App">
-      <h1>Material UI</h1>
-      <Button variant="contained" color="primary">Primary</Button>
+      <AppHeader></AppHeader>
       <NewsCenter></NewsCenter>
     </div >
   );
